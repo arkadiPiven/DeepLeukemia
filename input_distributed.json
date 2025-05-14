@@ -1,0 +1,25 @@
+{
+  "datasource_train": "Ichilov",
+  "datasource_test": "Schneider",
+  "folds": ["foldless"],
+  "objective": "is_B",
+  "architecture": "resnet50",
+  "train_epochs_count": "2000",
+  "train_batch_size": "16",
+  "train_mode": "random",
+  "log_train_auc": "False",
+  "log_test_auc": "True",
+  "log_slide_scores": "False",
+  "lr": "1e-5",
+  "weight_decay": "5e-5",
+  "model_save_frequency": "100",
+  "checkpoints_to_upload": ["1600", "1700", "1800", "1900", "2000"],
+  "project_name": "BM-WSI-subtype",
+  "run_name": "schneider",
+  "train_auc_frequency": "200",
+  "test_auc_frequency": "10",
+  "fine_tune_mode" : "False",
+  "fine_tune_epochs_count" : "500",
+  "models_dirs": {
+  }
+}
